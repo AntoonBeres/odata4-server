@@ -1,4 +1,6 @@
-# JayStack OData V4 Server
+# Antoon's OData V4 Server, forked from Jaystack
+
+Original repository: [odata-v4-server](https://github.com/jaystack/odata-v4-server)
 
 OData V4 server for node.js
 
@@ -7,10 +9,10 @@ OData V4 server for node.js
 * OASIS Standard OData Version 4.0 server
 * usable as a standalone server, as an Express router, as a node.js stream or as a library
 * expose service document and service metadata - $metadata
-* setup metadata using decorators or [metadata JSON](https://github.com/jaystack/odata-v4-service-metadata)
+* setup metadata using decorators or [metadata JSON](https://github.com/AntoonBeres/odata4-service-metadata)
 * supported data types are Edm primitives, complex types, navigation properties
 * support create, read, update, and delete entity sets, action imports, function imports, collection and entity bound actions and functions
-* support for full OData query language using [odata-v4-parser](https://github.com/jaystack/odata-v4-parser)
+* support for full OData query language using [odata-v4-parser](https://github.com/AntoonBeres/odata4-parser)
   * filtering entities - $filter
   * sorting - $orderby
   * paging - $skip and $top

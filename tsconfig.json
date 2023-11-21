@@ -12,7 +12,8 @@
     "noImplicitThis": true,
     "noEmitHelpers": true,
     "importHelpers": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "skipLibCheck": true
   },
   "exclude": [
     "node_modules",
